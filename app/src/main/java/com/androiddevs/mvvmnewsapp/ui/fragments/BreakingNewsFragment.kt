@@ -24,6 +24,9 @@ import kotlinx.android.synthetic.main.fragment_search_news.*
 
 class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {
 
+
+    I am the beast
+
     lateinit var viewModel: NewsViewModel
     lateinit var newsAdapter: NewsAdapter
 
