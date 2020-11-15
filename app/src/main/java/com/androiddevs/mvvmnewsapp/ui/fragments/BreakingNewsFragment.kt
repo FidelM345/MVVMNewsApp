@@ -32,6 +32,7 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {
         super.onViewCreated(view, savedInstanceState)
 
         println(" I am the beast becoz i am the best")
+        println(" Test me right now")
 
         viewModel =
             (activity as NewsActivity).viewModel //the activity keyword represents the fragment which is casted to an Activity by the as keyword to access viewModel form NewsActivity
