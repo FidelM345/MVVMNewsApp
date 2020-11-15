@@ -31,7 +31,7 @@ class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        println(" I am the beast")
+        println(" I am the beast mr sucker")
 
         viewModel =
             (activity as NewsActivity).viewModel //the activity keyword represents the fragment which is casted to an Activity by the as keyword to access viewModel form NewsActivity
